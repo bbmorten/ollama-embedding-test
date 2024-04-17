@@ -1,6 +1,6 @@
 # Installation Steps
 
-## From the video
+## From the video
 
 https://youtu.be/jENqvjpkwmw?si=vUZi5I1xZ1RaAJdX
 
@@ -12,7 +12,7 @@ ollama pull nomic-embed-text
 ollama serve
 ```
 
-## Create conda environment and run app.py
+## Create conda environment and run app.py
 
 ```shell
 mkdir ollama-embedding-test
@@ -30,7 +30,7 @@ pip install chromadb
 python app.py
 ```
 
-## Expected Output
+## Expected Output
 
 
 ```shell
@@ -47,7 +47,7 @@ Number of requested results 4 is greater than number of elements in index 3, upd
 > 
 ```
 
-## UI
+## UI
 
 ![UI Screen](ui-screenshot.png)
 
