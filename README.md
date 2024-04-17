@@ -1,8 +1,10 @@
 # Installation Steps
-## From the video https://youtu.be/jENqvjpkwmw?si=vUZi5I1xZ1RaAJdX
+
+## From the video
+
+https://youtu.be/jENqvjpkwmw?si=vUZi5I1xZ1RaAJdX
 
 ## Ollama
-
 
 ```shell
 ollama pull mistral
@@ -12,12 +14,10 @@ ollama serve
 
 ## Create conda environment and run app.py
 
-
 ```shell
 mkdir ollama-embedding-test
 cd ollama-embedding-test
 ```
-
 
 ```shell
 conda create -n ollama-embedding-test python=3.10
