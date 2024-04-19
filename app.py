@@ -1,6 +1,9 @@
 from langchain_community.document_loaders import WebBaseLoader
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_community.vectorstores import Chroma
+# It looks like you are working on a project that involves using RAG (Retrieval-Augmented Generation)
+# for answering questions based on context. In the code snippet you provided, you are performing the
+# following steps:
 from langchain_community.embeddings import OllamaEmbeddings
 from langchain_community.chat_models import ChatOllama
 from langchain_core.runnables import RunnablePassthrough
@@ -9,7 +12,8 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain.output_parsers import PydanticOutputParser
 from langchain.text_splitter import CharacterTextSplitter
 
-model_local = ChatOllama(model="mistral")
+## model_local = ChatOllama(model="mistral")
+model_local = ChatOllama(model="llama3:8b")
 
 # 1. Split data into chunks
 urls = [

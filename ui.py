@@ -10,7 +10,8 @@ from langchain.output_parsers import PydanticOutputParser
 from langchain.text_splitter import CharacterTextSplitter
 
 def process_input(urls, question):
-    model_local = ChatOllama(model="mistral")
+##    model_local = ChatOllama(model="mistral")
+    model_local = ChatOllama(model="llama3:8b")
     
     # Convert string of URLs to list
     urls_list = urls.split("\n")
